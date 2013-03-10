@@ -220,10 +220,6 @@ namespace ServerOutput
                     var param = GetParams(lines[1].Split('\\'));
                     if (!param.ContainsKey("fs_game"))
                         param.Add("fs_game", "");
-					if (strData.Contains("WZ"))
-					{
-						File.AppendAllText("wzinfodump.txt", string.Format("{0}{1}{2}\n", GetValue(param, "hostname").PadRight(35), server.QueryEP.ToString().PadRight(26), strData.Replace("\n", "")));
-					}
                     server.InfoDvars = param;
                     ProcessServer(server);
                     //StartStatusQuery(server);
