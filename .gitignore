@@ -1,0 +1,29 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# mstest test results
+TestResults
+
+# Resharper files
+_Resharper*
+
+#user files
+*.suo
+*.user
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+Debug
+Release
+bin
+obj

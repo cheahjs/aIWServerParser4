@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4D1ServerParser4", "4D1ServerParser4.csproj", "{E12A9323-E203-4665-A2A5-C2852D8C6F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerOutput", "ServerOutput\ServerOutput\ServerOutput.csproj", "{5ABE5593-1C01-4A9C-81FA-E63DB3579740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E12A9323-E203-4665-A2A5-C2852D8C6F8A}.Debug|x86.ActiveCfg = Debug|x86
+		{E12A9323-E203-4665-A2A5-C2852D8C6F8A}.Debug|x86.Build.0 = Debug|x86
+		{E12A9323-E203-4665-A2A5-C2852D8C6F8A}.Release|x86.ActiveCfg = Release|x86
+		{E12A9323-E203-4665-A2A5-C2852D8C6F8A}.Release|x86.Build.0 = Release|x86
+		{5ABE5593-1C01-4A9C-81FA-E63DB3579740}.Debug|x86.ActiveCfg = Debug|x86
+		{5ABE5593-1C01-4A9C-81FA-E63DB3579740}.Debug|x86.Build.0 = Debug|x86
+		{5ABE5593-1C01-4A9C-81FA-E63DB3579740}.Release|x86.ActiveCfg = Release|x86
+		{5ABE5593-1C01-4A9C-81FA-E63DB3579740}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
